@@ -18,14 +18,6 @@ O Projeto de Carteira de Investimentos é uma aplicação móvel desenvolvida em
 
 - [Supabase](https://supabase.io/): Uma plataforma de banco de dados com funcionalidades de API e autenticação incorporadas.
 
-## Capturas de Tela
-
-![Tela de Registro de Investimentos](screenshots/registro_investimento.png)
-*Legenda: Tela de Registro de Investimentos*
-
-![Tela de Consulta de Investimentos](screenshots/consulta_investimentos.png)
-*Legenda: Tela de Consulta de Investimentos*
-
 ## Como Instalar
 
 1. Clone o repositório.
