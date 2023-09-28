@@ -1,16 +1,44 @@
-# expense_tracker
+# Projeto de Carteira de Investimentos com Flutter e Supabase
 
-A new Flutter project.
+![Flutter Logo](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)
+![Supabase Logo](https://supabase.io/new/images/brand-assets/logo.png)
 
-## Getting Started
+## Descrição do Projeto
 
-This project is a starting point for a Flutter application.
+O Projeto de Carteira de Investimentos é uma aplicação móvel desenvolvida em Flutter que permite aos usuários acompanhar e gerenciar seus investimentos de forma eficiente. Além disso, integra-se ao Supabase, uma plataforma poderosa de banco de dados, para a inserção e consulta de dados de investimentos.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades Principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Registro de Investimentos**: Os usuários podem adicionar informações sobre seus investimentos, como tipo de ativo, valor investido, data de compra, etc.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Consulta de Investimentos**: Os usuários podem visualizar uma lista de todos os investimentos registrados.
+
+- **Relatórios e Estatísticas**: A aplicação fornece gráficos e estatísticas para ajudar os usuários a acompanhar o desempenho de seus investimentos ao longo do tempo.
+
+## Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/): Um SDK de código aberto para criar aplicativos nativos para Android e iOS a partir de uma única base de código.
+
+- [Supabase](https://supabase.io/): Uma plataforma de banco de dados com funcionalidades de API e autenticação incorporadas.
+
+## Capturas de Tela
+
+![Tela de Registro de Investimentos](screenshots/registro_investimento.png)
+*Legenda: Tela de Registro de Investimentos*
+
+![Tela de Consulta de Investimentos](screenshots/consulta_investimentos.png)
+*Legenda: Tela de Consulta de Investimentos*
+
+## Como Instalar
+
+1. Clone o repositório.
+2. Instale as dependências utilizando `flutter pub get`.
+3. Configure as credenciais do Supabase no arquivo `supabase_config.dart`.
+
+## Configuração do Supabase
+
+Para integrar o Supabase com o projeto, é necessário criar um projeto no Supabase, obter as credenciais e configurá-las no arquivo `supabase_config.dart`.
+
+```dart
+const supabaseUrl = 'https://ujxzciqowpfyshxagmhj.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVqeHpjaXFvd3BmeXNoeGFnbWhqIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTU5MzU3NDMsImV4cCI6MjAxMTUxMTc0M30.T6WJogufEcRVE5Zwsl1nYakrCJfXeQr91OtR2BD-4Uw';
