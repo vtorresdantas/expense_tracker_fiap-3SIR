@@ -1,8 +1,5 @@
 # Projeto de Carteira de Investimentos com Flutter e Supabase
 
-![Flutter Logo](https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png)
-![Supabase Logo](https://supabase.io/new/images/brand-assets/logo.png)
-
 ## Descrição do Projeto
 
 O Projeto de Carteira de Investimentos é uma aplicação móvel desenvolvida em Flutter que permite aos usuários acompanhar e gerenciar seus investimentos de forma eficiente. Além disso, integra-se ao Supabase, uma plataforma poderosa de banco de dados, para a inserção e consulta de dados de investimentos.
